@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  margin-bottom: 15px;
+}
+
+.footer-inner {
+  background: #e0e0e0;
+  box-shadow: inset 8px 8px 16px #bebebe, inset -8px -8px 16px #ffffff;
+}
+
+.neumorphic-button {
+  box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+}
+
+.glass-modal {
+  max-height: 90vh;
+}
+
+.glass-style {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
