@@ -1,0 +1,29 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+    background: #e0e5ec;
+    box-shadow: 9px 9px 16px #a3b1c6, -9px -9px 16px #ffffff;
+    transition: transform 0.2s;
+}
+
+.list-item:hover {
+    transform: scale(1.02);
+}
+
+.item-labels, .item-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.label, .action-label {
+    font-weight: 600;
+}
+
+.sub-label, .action-sub-label {
+    font-size: 0.85rem;
+    color: #6c757d;
+}

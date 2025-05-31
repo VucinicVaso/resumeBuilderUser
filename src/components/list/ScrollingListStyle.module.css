@@ -1,0 +1,6 @@
+.scrollingList {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}

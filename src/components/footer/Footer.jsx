@@ -8,15 +8,13 @@ const Footer = ({ onButtonClick }) => {
     <div className="footer-container d-flex justify-content-center">
       <div className="footer-inner d-flex gap-3 p-3 rounded-pill">
         
-        {
-        icons.map((icon, idx) => (
+        { icons.map((icon, idx) => (
           <FooterButton 
             key={idx} 
             iconClass={icon} 
             onClick={onButtonClick} 
           />
-        ))
-        }
+        )) }
       
       </div>
     </div>

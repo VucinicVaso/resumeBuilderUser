@@ -16,13 +16,3 @@ body {
 .neumorphic-button {
   box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
 }
-
-.glass-modal {
-  max-height: 90vh;
-}
-
-.glass-style {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
